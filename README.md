@@ -82,9 +82,13 @@ One of the datasets used in this project is too large to host on GitHub, so it's
 
 ## 📜 Thesis
 
-📄 electricity-price-prediction/thesis/thesis.pdf
+📄 ## 📜 Thesis
 
-This thesis presents the research, data analysis, and model evaluation related to electricity price prediction and renewable energy influence in the UK (2009–2023).
+📄 [View Thesis (PDF)](thesis/thesis.pdf)
+
+This thesis outlines the methodology, machine learning models, and insights developed while forecasting UK electricity prices and analyzing the impact of renewable energy sources from 2009–2023.
+
+
 
 
 ---
