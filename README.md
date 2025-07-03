@@ -70,27 +70,25 @@ One of the datasets used in this project is too large to host on GitHub, so it's
 
 ## 🖼️ Sample Visuals
 
-## 📈 Electricity Price Prediction – Model Results
 
-### 🔹 Actual vs Predicted Prices (Gradient Boosting – Jan 2016)
-Model trained from 2009 to 2015 and tested on January 2016 (First 200 Samples).
+### 🔹 Actual vs Predicted Prices (Gradient Boosting – January 2016)
+*Model trained from 2009 to 2015 and tested on January 2016 (First 200 samples)*
 
-[Actual vs Predicted](electricity-price-prediction/visuals/Gradient boosting trained from 2009 to 2015 and tested January 2016(first 200 samples).png)
+![Gradient Boosting - Jan 2016](electricity-price-prediction/visuals/Gradient%20boosting%20trained%20from%202009%20to%202015%20and%20tested%20January%202016(first%20200%20samples).png)
 
-- The model captures general trends but misses price spikes.
-- Actual values show high volatility.
-- Predicted values are smoother, typical of tree-based models.
+- The model captures overall trends but underpredicts sharp spikes.
+- Common limitation in tree-based regressors for volatile time series.
 
 ---
 
-### 🔹 Feature Importance (Random Forest – Jan 2019)
-Trained from 2014 to 2018, tested on January 2019.
+### 🔹 Feature Importance (Random Forest – January 2019)
+*Model trained from 2014 to 2018 and tested on January 2019*
 
-![Feature Importance](images/random_forest_feature_importance_jan2019.png)
+![Random Forest Feature Importance - Jan 2019](electricity-price-prediction/visuals/Random%20Forest%20feature%20importance%20(trained%20from%202014%20to%202018%20and%20predicted%20January%202019)Figure%2018%20Random%20Forest%20f.png)
 
-- **Top Feature:** `STORAGE`
-- Other key contributors: `HYDRO`, `BIOMASS`, `COAL`, `RENEWABLE`, `GENERATION`.
-- Feature importance reflects model interpretability and energy mix impact.
+- **Top contributor:** `STORAGE`
+- Other important features: `HYDRO`, `BIOMASS`, `RENEWABLE`, `GENERATION`
+- Shows how energy source variability influences electricity price forecasts.
 
 
 ---
