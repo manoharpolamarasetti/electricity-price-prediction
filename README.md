@@ -70,11 +70,28 @@ One of the datasets used in this project is too large to host on GitHub, so it's
 
 ## 🖼️ Sample Visuals
 
-### Feature Importance – Random Forest
-![feature_importance](visuals/feature_importance.png)
+## 📈 Electricity Price Prediction – Model Results
 
-### Actual vs Predicted Prices (Gradient Boosting)
-![model_results](visuals/model_results.png)
+### 🔹 Actual vs Predicted Prices (Gradient Boosting – Jan 2016)
+Model trained from 2009 to 2015 and tested on January 2016 (First 200 Samples).
+
+![Actual vs Predicted](images/gradient_boosting_jan2016.png)
+
+- The model captures general trends but misses price spikes.
+- Actual values show high volatility.
+- Predicted values are smoother — typical of tree-based models.
+
+---
+
+### 🔹 Feature Importance (Random Forest – Jan 2019)
+Trained from 2014 to 2018, tested on January 2019.
+
+![Feature Importance](images/random_forest_feature_importance_jan2019.png)
+
+- **Top Feature:** `STORAGE`
+- Other key contributors: `HYDRO`, `BIOMASS`, `COAL`, `RENEWABLE`, `GENERATION`.
+- Feature importance reflects model interpretability and energy mix impact.
+
 
 ---
 
