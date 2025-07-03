@@ -31,6 +31,14 @@ The increasing share of intermittent renewable sources like wind and solar intro
 - Ofgem & Elexon: Settlement prices and demand
 - Date Range: Jan 2009 – Dec 2023
 - Granularity: 30-minute settlement periods
+- 
+## 📁 Dataset
+
+One of the datasets used in this project is too large to host on GitHub, so it's stored on Google Drive.
+
+📥 [Download Full Dataset (CSV, ~25GB)][(https://drive.google.com/uc?export=download&id=YOUR_FILE_ID)](https://drive.google.com/file/d/11szPrOgtDp6iQFmiLUzZe-ZRZuavrws3/view?usp=sharing)
+
+> ⚠️ You may need to right-click the link and choose "Save link as…" if Google Drive blocks previewing due to file size.
 
 ---
 
