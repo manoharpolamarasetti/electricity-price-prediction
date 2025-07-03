@@ -70,8 +70,14 @@ The increasing share of intermittent renewable sources like wind and solar intro
 
 ---
 
+---
+
 ## 📜 Thesis
-Download the full thesis PDF [here](thesis/Manohar_Polamarasetti_Thesis.pdf)
+
+📄 [Manohar_Polamarasetti_Thesis.docx](thesis/Manohar_Polamarasetti_Thesis.docx)
+
+This thesis presents the research, data analysis, and model evaluation related to electricity price prediction and renewable energy influence in the UK (2009–2023).
+
 
 ---
 
