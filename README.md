@@ -75,7 +75,7 @@ One of the datasets used in this project is too large to host on GitHub, so it's
 ### 🔹 Actual vs Predicted Prices (Gradient Boosting – Jan 2016)
 Model trained from 2009 to 2015 and tested on January 2016 (First 200 Samples).
 
-![Actual vs Predicted](electricity-price-prediction/visuals/Gradient boosting trained from 2009 to 2015 and tested January 2016(first 200 samples).png)
+(electricity-price-prediction/visuals/Gradient boosting trained from 2009 to 2015 and tested January 2016(first 200 samples).png)
 
 - The model captures general trends but misses price spikes.
 - Actual values show high volatility.
